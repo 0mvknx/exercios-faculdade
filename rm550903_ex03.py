@@ -26,7 +26,7 @@ A média da turma PAR foi {} portanto maior que a impar""".format(mediaGeral)
 elif notasImpares > notasPares:
     mediaGeral = notasImpares / 25
     mensagem = """
-A média da turma IMPAR foi {} maior que a par""".format(mediaGeral)
+A média da turma IMPAR foi {} portanto maior que a par""".format(mediaGeral)
 else:
     mediaGeral = (notasImpares + notasPares) / 50
     mensagem = """
